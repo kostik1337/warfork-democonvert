@@ -28,6 +28,15 @@ const versions = [
     gzipped: false,
     metadata_size: 4 * 1024,
   },
+  {
+    name: "Warfork 2.15",
+    ext: "wfdz22",
+    basegame: "basewf",
+    game_protocol: 27,
+    demo_protocol: 22,
+    gzipped: false,
+    metadata_size: 4 * 1024,
+  },
 ];
 
 let current_demo = {
